@@ -1,0 +1,141 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+}
+a{
+    color: #000;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    height: 60px;
+    margin: 0 auto;
+}
+#logo{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+#nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav-list li{
+    font-weight: 300;
+    padding: 0 25px;
+    cursor: pointer;
+    position: relative;
+}
+
+#nav-list li::after{
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 20px;
+    right: 0;
+    background: #000;
+}
+#nav-list li:last-child::after{
+    background: none;
+}
+
+#home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 250px 0 300px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+#home .img{
+    width: 80%;
+    margin-right: 50px;
+}
+.img img{ height: 400px;
+    width: 400px;
+    border-radius: 250px;
+}
+.home-right{
+    width: 80%;
+}
+.home-title{
+    font-size: 2.5rem;
+    padding: 10px 0;
+}
+.nom{
+    font-weight: bold;
+}
+.home-right h2{
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.home-right p{
+    min-width: 300px;
+    line-height: 30px;
+}
+.home-right .btn-list{
+    padding: 30px 0;
+    display: flex;
+}
+.home-right .btn-list a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    font-size: .75rem;
+    font-weight: bold;
+    background: #e42b2b;
+    border: 1px solid #6e2727;
+    margin-right: 30px;
+    transition: all .4s ease;
+    cursor: pointer;
+}
+.home-right .btn-list a:hover{
+    transform: scale(.9);
+}
+.home-right .btn-list a:first-child{
+    background: #ffa600;
+    border: 1px solid #91671a;
+}
+.home-right .btn-list a:last-child{
+    background: #2caac0;
+    border: 1px solid #1f5b66;
+}
+
+.footer{
+    border-top: 1px solid #c9c8c8;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer h3{
+    padding: 15px 0;
+    font-size: 1rem;
+}
+.footer .copyright{
+    padding: 15px 0;
+}
+.medias-icons{
+    display: flex;
+    align-items: center;
+}
+.medias-icons i{
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+.medias-icons i:hover{
+    transform: scale(1.2);
+}

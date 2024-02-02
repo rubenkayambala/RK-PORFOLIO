@@ -1,0 +1,104 @@
+section{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 25px 40px 0;
+}
+section p{
+    font-size: .85rem;
+}
+section li{
+    font-size: .85rem;
+    list-style: inside;
+    margin-left: 15px;
+}
+.experience .cv{
+    font-size: 1.1rem;
+    padding: 20px 0 15px;
+    line-height: 25px;
+}
+.title{
+    font-size: 1.1rem;
+    padding: 20px 0 30px;
+    line-height: 25px;
+}
+.text{
+    line-height: 30px;
+    padding: 0 0 10px;
+    width: 90%;
+}
+.list{
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+.list li{
+    line-height: 30px;
+}
+.block{
+    display: flex;
+    justify-content: space-between;
+    line-height: 25px;
+}
+.left{
+    margin-bottom: 25px;
+}
+.left h3{
+    font-size: .9rem;
+}
+
+.competence-container{
+    display: flex;
+    margin: 0 25px 0;
+    font-size: .9rem;
+}
+.competence-container .list{
+    font-size: .9rem;
+    margin-right: 250px;
+}
+.competence-container li{
+    font-size: .9rem;
+}
+.competence-container .list-title{
+    list-style: none;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.etude{
+    border-top: 1px solid #dddcdc;
+    border-bottom: 1px solid #dddcdc;
+}
+.block,
+.text,
+.list{
+    margin-left: 20px;
+}
+.langue{
+    margin-bottom: 80px;
+    border-top: 1px solid #dddcdc;
+}
+.langue h3{
+    padding-bottom: 20px;
+}
+.langue li{
+    font-weight: bold;
+}
+
+.footer h3{
+    padding: 15px 0;
+    font-size: 1rem;
+}
+.footer .copyright{
+    padding: 15px 0;
+}
+.medias-icons{
+    display: flex;
+    align-items: center;
+}
+.medias-icons i{
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+.medias-icons i:hover {
+    transform: scale(1.2);
+}

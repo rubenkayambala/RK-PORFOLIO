@@ -1,0 +1,52 @@
+a{
+    color: #000;
+}
+#contact{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1100px;
+    padding: 250px 0 300px;
+    margin: 0 auto;
+}
+.contact-left{
+    line-height: 25px;
+}
+.contact-left h2{
+    margin: 0 0 20px;
+}
+.contact-left p{
+    margin: 0 0 20px;
+}
+.contact-right form{
+    display: grid;
+    align-items: end;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+}
+form label{
+    display: block;
+    margin-bottom: 10px;
+}
+input[type="text"], input[type="email"]{
+    padding: 8px;
+    width: 250px;
+}
+textarea{
+    padding: 8px;
+    resize: none;
+    height: 150px;
+    width: 250px;
+}
+input[type="submit"]{
+    background: #ffa600;
+    border: 1px solid #91671a;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    transition: all .4s ease;
+}
+input[type="submit"]:hover{
+    transform: scale(.9);
+}
